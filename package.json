@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "echo 'All ok'"
+    "test": "karma start karma.conf.js"
   },
   "keywords": [
     "cookie"
@@ -22,7 +22,17 @@
     "grunt-minified": "0.0.6",
     "install": "~0.1.7",
     "bower": "~1.3.9",
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "karma": "~0.12.32",
+    "karma-junit-reporter": "~0.2.2",
+    "jasmine": "~2.3.1",
+    "mocha": "~2.2.5",
+    "requirejs": "~2.1.17",
+    "jasmine-core": "~2.3.4",
+    "karma-jasmine": "~0.3.5",
+    "karma-chrome-launcher": "~0.1.12",
+    "angular-mocks": "~1.3.15",
+    "browserify": "~10.2.1"
   },
   "repository": {
     "type": "git",

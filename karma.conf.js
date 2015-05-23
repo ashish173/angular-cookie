@@ -9,12 +9,16 @@ module.exports = function(config) {
 
 
     // frameworks to use
-    frameworks: ['mocha', 'requirejs'],
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'test/*.js', included: false}
+      'bower_components/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'angular-cookie.js',
+      'test/*.js'
+        //{pattern: 'test/*.js', included: false}
     ],
 
 
@@ -54,7 +58,7 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['Chrome', 'Firefox'],
+    browsers: ['Chrome'],
 
 
     // If browser does not capture in given timeout [ms], kill it
